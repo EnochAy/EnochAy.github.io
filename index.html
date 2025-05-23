@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Ayomide Fadeyi, Data Manager and Database Administrator with expertise in SQL, Python, Power BI, and AWS.">
-    <meta name="keywords" content="data manager, database administrator, SQL, Python, Power BI, AWS, data governance">
+    <meta name="keywords" content="data manager, database administrator, SQL, Python, Power BI, AWS, data governance, data science">
     <title>Ayomide Fadeyi - Data Manager & Database Administrator</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 font-sans">
     <div class="container mx-auto px-4 py-8">
+        <!-- Navigation Bar -->
+        <nav class="sticky top-0 bg-white shadow-md p-4 z-10">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="#profile" class="text-blue-600 hover:underline">Profile</a></li>
+                <li><a href="#experience" class="text-blue-600 hover:underline">Experience</a></li>
+                <li><a href="#projects" class="text-blue-600 hover:underline">Projects</a></li>
+                <li><a href="#skills" class="text-blue-600 hover:underline">Skills</a></li>
+            </ul>
+        </nav>
+
         <!-- Header Section -->
         <header class="text-center mb-12">
-            <img src="images/headshot.jpg" alt="Ayomide Fadeyi" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <img src="imagefolder/headshot.jpg" alt="Ayomide Fadeyi" class="w-32 h-32 rounded-full mx-auto mb-4">
             <h1 class="text-4xl font-bold text-gray-800">Ayomide Fadeyi</h1>
             <p class="text-xl text-gray-600">Data Manager & Database Administrator</p>
             <p class="text-gray-500">Lagos, Nigeria | ayomide.fadeyi1@gmail.com | +2348069248663</p>
@@ -26,15 +36,15 @@
         </header>
 
         <!-- Profile Section -->
-        <section class="mb-12">
+        <section id="profile" class="mb-12">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Profile</h2>
             <p class="text-gray-700">
-                Results-driven Data Manager & Database Administrator with over 6 years of experience in data governance, analysis, business intelligence, and process optimization. Expertise in SQL Server administration, metadata management, and data cataloging to enhance data quality and compliance. Proficient in SQL, Python, Power BI, and cloud platforms (AWS, Azure, GCP). Adept at driving data-driven decision-making and operational efficiency through cross-functional collaboration.
+                Results-driven Data Manager & Database Administrator with over 6 years of experience in data governance, analysis, business intelligence, and process optimization. Expertise in SQL Server administration, metadata management, and data cataloging to enhance data quality and compliance. Proficient in SQL, Python, Power BI, Tableau, and cloud platforms (AWS, Azure, GCP). Adept at driving data-driven decision-making and operational efficiency through cross-functional collaboration.
             </p>
         </section>
 
         <!-- Work Experience Section -->
-        <section class="mb-12">
+        <section id="experience" class="mb-12">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Work Experience</h2>
             <div class="space-y-6">
                 <div>
@@ -60,9 +70,64 @@
         </section>
 
         <!-- Projects Section -->
-        <section class="mb-12">
+        <section id="projects" class="mb-12">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800">HR Analytics: Job Change of Data Scientists</h3>
+                    <p class="text-gray-600">2023</p>
+                    <img src="imagefolder/hr-analytics.png" alt="HR Analytics Visualization" class="w-full h-48 object-cover rounded-md mb-4">
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Predicted data scientist job changes using machine learning models.</li>
+                        <li>Analyzed factors influencing employee turnover with Python.</li>
+                        <li><a href="https://github.com/EnochAy/EnochAy.github.io/blob/main/HR%20ANALYTICS%20JOB%20CHANGE%20OF%20DATA%20SCIENTISTS%20(Data%20Science%20Project).ipynb" class="text-blue-600 hover:underline">View Notebook</a></li>
+                        <li>Tech Stack: Python, Pandas, Scikit-learn, Matplotlib</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800">Udacity Data Investigation</h3>
+                    <p class="text-gray-600">2022</p>
+                    <img src="imagefolder/data-investigation.png" alt="Data Investigation Visualization" class="w-full h-48 object-cover rounded-md mb-4">
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Investigated datasets to uncover insights using statistical analysis.</li>
+                        <li>Applied SQL and Python for data cleaning and exploration.</li>
+                        <li><a href="https://github.com/EnochAy/Udacity-Nanodegree-project--Data-Investigation-" class="text-blue-600 hover:underline">View Repository</a></li>
+                        <li>Tech Stack: Python, SQL, Pandas, NumPy</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800">Udacity Data Visualization</h3>
+                    <p class="text-gray-600">2022</p>
+                    <img src="imagefolder/data-visualization.png" alt="Data Visualization Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Created interactive visualizations to communicate data insights.</li>
+                        <li>Used Tableau and Python for dashboard development.</li>
+                        <li><a href="https://github.com/EnochAy/Udacity-Nanodegree-Data-Analyst---Data-Visualization-Project" class="text-blue-600 hover:underline">View Repository</a></li>
+                        <li>Tech Stack: Tableau, Python, Matplotlib, Seaborn</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800">Amazon Review Sentiment Analysis</h3>
+                    <p class="text-gray-600">04/2022 - 05/2022</p>
+                    <img src="imagefolder/amazon-nlp.png" alt="Sentiment Analysis Plot" class="w-full h-48 object-cover rounded-md mb-4">
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Performed sentiment analysis on Amazon reviews using NLP techniques.</li>
+                        <li>Visualized trends with Matplotlib and seaborn for actionable insights.</li>
+                        <li><a href="https://github.com/EnochAy/NLP-Projects/blob/master/Amazon%20Reviews/zalando_task.f.ipynb" class="text-blue-600 hover:underline">View Notebook</a></li>
+                        <li>Tech Stack: Python, NumPy, Pandas, Matplotlib, NLTK</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800">SQL Solutions</h3>
+                    <p class="text-gray-600">2022 - Present</p>
+                    <img src="imagefolder/sql-solutions.png" alt="SQL Query Example" class="w-full h-48 object-cover rounded-md mb-4">
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Developed SQL queries for data analysis and reporting.</li>
+                        <li>Optimized database performance with stored procedures.</li>
+                        <li><a href="https://github.com/EnochAy/SQL-Solutions" class="text-blue-600 hover:underline">View Repository</a></li>
+                        <li>Tech Stack: SQL, MySQL, SQL Server</li>
+                    </ul>
+                </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-xl font-semibold text-gray-800">End-to-End Cryptocurrency Analytics</h3>
                     <p class="text-gray-600">09/2024 - 12/2024</p>
@@ -70,77 +135,23 @@
                     <ul class="list-disc list-inside text-gray-700">
                         <li>Built a real-time ETL pipeline using CoinMarketCap API for cryptocurrency data.</li>
                         <li>Created an interactive dashboard for real-time visualization and insights.</li>
-                        <li><a href="https://github.com/EnochAy/End-to-End-Cryptocurrency-Analytics" class="text-blue-600 hover:underline">View Repository</a></li>
+                        <li><a href="https://github.com/EnochAy/crypto-analytics" class="text-blue-600 hover:underline">View Repository</a></li>
                         <li>Tech Stack: Python, MySQL, SQLAlchemy, Matplotlib, Dash</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800">Operations Performance Dashboard</h3>
-                    <p class="text-gray-600">09/2024 - 11/2024</p>
-                    <img src="images/operations-dashboard-screenshot.png" alt="Operations Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
-                    <ul class="list-disc list-inside text-gray-700">
-                        <li>Developed an interactive KPI dashboard to track performance across business units.</li>
-                        <li><a href="https://github.com/EnochAy/operations-dashboard" class="text-blue-600 hover:underline">View Repository</a></li>
-                        <li>Tech Stack: Power BI, SQL</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800">Cloud Data Migration for Business Intelligence</h3>
-                    <p class="text-gray-600">03/2025 - Present</p>
-                    <img src="images/cloud-migration-diagram.png" alt="Cloud Migration Diagram" class="w-full h-48 object-cover rounded-md mb-4">
-                    <ul class="list-disc list-inside text-gray-700">
-                        <li>Migrated on-prem SQL Server data to AWS RDS for enhanced performance.</li>
-                        <li>Automated ETL workflows using AWS Glue.</li>
-                        <li><a href="https://github.com/EnochAy/cloud-migration" class="text-blue-600 hover:underline">View Repository</a></li>
-                        <li>Tech Stack: AWS RDS, AWS Glue, SQL Server</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-gray-800">Amazon Review Sentiment Analysis</h3>
-                    <p class="text-gray-600">04/2022 - 05/2022</p>
-                    <img src="images/sentiment-analysis-plot.png" alt="Sentiment Analysis Plot" class="w-full h-48 object-cover rounded-md mb-4">
-                    <ul class="list-disc list-inside text-gray-700">
-                        <li>Performed data wrangling and sentiment classification using Python.</li>
-                        <li>Visualized trends with Matplotlib and seaborn for actionable insights.</li>
-                        <li><a href="https://github.com/EnochAy/sentiment-analysis" class="text-blue-600 hover:underline">View Repository</a></li>
-                        <li>Tech Stack: Python, NumPy, Pandas, Matplotlib, SQL</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Skills, Education, Certifications Sections -->
-        <section class="mb-12">
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Skills</h2>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
                 <li><strong>Data Management & Governance:</strong> Metadata Management, Data Cataloging, Data Quality, Access Controls</li>
                 <li><strong>Data Analytics & BI:</strong> Power BI, SQL, Python, Tableau, Excel</li>
                 <li><strong>Process Optimization:</strong> Agile (Scrum, Kanban), Trello, Jira, Confluence</li>
-                <li><strong>Cloud & Data Engineering:</strong> AWS (Glue, RDS), Microsoft SQL Server, MongoDB</li>
+                <li><strong>Cloud & Data Engineering:</strong> AWS (Glue, RDS), Microsoft SQL Server, MySQL, MongoDB</li>
                 <li><strong>Programming:</strong> Python, SQL, R</li>
                 <li><strong>Collaboration Tools:</strong> Git, GitHub, Slack</li>
-            </ul>
-        </section>
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Education</h2>
-            <div class="space-y-4">
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800">B.Sc. (Ed.) Mathematics Education (Second Upper Class)</h3>
-                    <p class="text-gray-600">University of Lagos | 12/2014 - 12/2017</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold text-gray-800">NCE Economics and Mathematics (Credit)</h3>
-                    <p class="text-gray-600">Adeniran Ogunsanya College of Education | 01/2007 - 08/2010</p>
-                </div>
-            </div>
-        </section>
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Certifications</h2>
-            <ul class="list-disc list-inside text-gray-700">
-                <li>Data Analyst Nanodegree (Udacity)</li>
-                <li>Power BI Data Analytics Essentials (Udemy)</li>
-                <li>Google Cybersecurity Professional Certificate (In Progress)</li>
-                <li>Google Analytics</li>
             </ul>
         </section>
 
